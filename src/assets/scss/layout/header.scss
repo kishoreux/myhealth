@@ -1,0 +1,19 @@
+header{
+    padding: 2rem 0;
+    .mh-logo{
+        img{
+            width: 4rem;
+        }
+        &.with-tagline{
+            margin-top: 3rem;
+            img{
+                width: 236px;
+                margin: 0 auto;
+                display: block;
+            }
+        }
+    }
+    .mh-welcome{
+        margin-left:1rem;
+    }
+}

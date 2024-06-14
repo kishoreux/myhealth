@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.mh-container{
+  padding: 0 2rem;
+}
+.mh-row{
+  display: flex;
+  &.horizontal{
+    flex-direction: row;
+    &.end{
+      align-items: end;
+    }
+  }
+  &.vertical{
+    flex-direction: column;
+     
+  }
+  &.gap-1{
+    gap: 1rem;
+  }
+  &.gap-2{
+    gap: 2rem;
+  }
+}
+.mh-w-100{
+  width: 100%;
+}
+.mh-fixed{
+  position: fixed;
+  left:2rem;
+  &-bottom{
+    bottom: 2rem;
+  }
+}
+.mh-mt-1{
+  margin-top: 1rem;
+}
+.mh-mt-2{
+  margin-top: 2rem;
+}
+.mh-mt-3{
+  margin-top: 3rem;
+}
+
+.mh-mb-1{
+  margin-bottom: 1rem;
+}
+.mh-mb-2{
+  margin-bottom: 2rem;
+}
+.mh-mb-3{
+  margin-bottom: 3rem;
+}
+.mh-mb-43{
+  margin-bottom: 4rem;
+}
+.mh-mb-5{
+  margin-bottom: 5rem;
+}
+.mh-mb-6{
+  margin-bottom: 6rem;
+}
+
+.mh-my-1{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.mh-my-2{
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.mh-my-3{
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}

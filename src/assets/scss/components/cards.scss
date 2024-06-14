@@ -1,0 +1,23 @@
+.mh-card{
+    background-color: $white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    &.gradient-bg{
+        background: rgb(203,208,255);
+        background: linear-gradient(45deg, rgba(203,208,255,1) 0%, rgba(238,243,231,1) 48%, rgba(252,216,252,1) 100%);
+    }
+    &.with-image{
+        .mh-card-content{
+            display: flex;
+        }
+        img{
+            width: 8.75rem;
+            margin-right: 1rem;
+        }
+    }
+    .mh-btn{
+        width: 100%;
+        margin-top: 1rem;
+    }
+}

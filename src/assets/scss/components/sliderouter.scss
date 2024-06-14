@@ -1,0 +1,23 @@
+/* SlideRoutes.css */
+.slide-enter {
+    position: absolute;
+    width: 100%;
+    transform: translateX(100%);
+    transition: transform 300ms ease-in-out;
+  }
+  
+  .slide-enter-active {
+    transform: translateX(0%);
+  }
+  
+  .slide-exit {
+    position: absolute;
+    width: 100%;
+    transform: translateX(0%);
+    transition: transform 300ms ease-in-out;
+  }
+  
+  .slide-exit-active {
+    transform: translateX(-100%);
+  }
+  

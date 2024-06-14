@@ -1,0 +1,20 @@
+footer{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    background-color: $white;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+
+    .mh-footer-navigation{
+        display: flex;
+        height: 5.25rem;
+        align-items: center;
+        .mh-nav-btn{
+            border: 0;
+            width: 100%;
+            background: transparent;
+        }
+    }
+}

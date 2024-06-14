@@ -1,0 +1,50 @@
+body{
+    font-family: "Lexend Deca", sans-serif;
+    font-style: normal; 
+    font-size:16px
+}
+
+h1, h2, h3,h4, h5, h6{
+    color: $heading-color;
+}
+
+h1{
+    @include font-style(2.5rem, 600, 2.5rem);
+}
+
+h2{
+    @include font-style(2rem, 600, 2rem);
+}
+
+
+h3{
+    @include font-style(1.75rem, 600, 1.75rem);
+}
+
+
+h4{
+    @include font-style(1.5rem, 600, 1.5rem);
+}
+
+
+h5{
+    @include font-style(1.25rem, 600, 1.25rem);
+}
+
+h6{
+    @include font-style(1rem, 600, 1rem);
+}
+
+.body-text, p{
+    @include font-style(1rem, 400, 1rem);
+    color: $text-color;
+}
+.text-align-left{
+    text-align: left;
+}
+.text-align-right{
+    text-align: right;
+}
+.text-align-center{
+    text-align: center;
+}

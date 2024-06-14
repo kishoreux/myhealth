@@ -1,0 +1,36 @@
+.mh-btn{
+    border: 0;
+    border: 0;
+    height: 4rem;
+    border-radius: 4rem;
+    font-family: "Lexend Deca", sans-serif;
+    @include font-style(1.25rem, 400, 1.25rem);
+    position: relative;
+
+    &.md-btn{
+        height: 3rem;
+    }
+    &.mh-primary{
+        background-color: $primary-color;
+        color: $white;
+    }
+    &.mh-fixed-bottom{
+        width: calc(100% - 64px);
+    }
+    a{
+        color: $white;
+        text-decoration: none;
+        display: block;
+    }
+    &.mh-outlined {
+        border: 1px solid $primary-300;
+        background-color: $white;
+        margin-bottom: 1rem;
+        img{
+            width: 2.75rem;
+            position: absolute;
+            left: 1.5rem;
+            top: 0.75rem;
+        }
+    }
+}

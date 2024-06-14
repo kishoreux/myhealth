@@ -1,0 +1,16 @@
+.mh-success{
+    text-align: center;
+    background-color: $secondary-50;
+    border: 1px solid $secondary-100;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    .mh-success-title{
+        @include font-style(1.25rem, 500, 1.25rem);
+        color: $secondary-600;
+        margin-bottom: 1rem;
+    }
+    .mh-schedule-time{
+        margin-top: 2rem;
+    }
+}
