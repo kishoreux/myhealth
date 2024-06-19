@@ -26,7 +26,7 @@ function Footer(){
                 <img src={iconHeart} alt={iconHeart} />
              </button>
              <button className='mh-nav-btn'>
-                <Link to="/"><img src={iconLogout} alt={iconLogout} /></Link>
+                <Link to="/login"><img src={iconLogout} alt={iconLogout} /></Link>
              </button>
              
           </div>

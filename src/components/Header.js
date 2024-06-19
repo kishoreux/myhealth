@@ -8,7 +8,7 @@ function Header() {
   const currentPath = location.pathname;
 
   let isLoggedin = true;
-  if (currentPath === '/') {
+  if (currentPath === '/' || currentPath === '/login' ) {
     isLoggedin = false;
   }
 

@@ -1,0 +1,68 @@
+.mh-form-group{
+    .react-datepicker-wrapper{
+        width: 100%;
+    }
+    .react-datepicker__input-container *  {
+        font-family: "Lexend Deca", sans-serif;
+    }
+    .react-datepicker__input-container::after{
+        display: block;
+        content: "";
+        position: absolute;
+        right: 20px;
+        top: 13px;
+        width: 28px;
+        height: 28px;
+        background: url(../../images/icon-datepicker.svg) no-repeat 0 0;
+        background-size: contain;
+        pointer-events: none;
+    }
+    h2.react-datepicker__current-month {
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+    }
+    .react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+        width: 2.7rem;
+        line-height: 2.7rem;
+        font-size: 20px;
+        font-family: "Lexend Deca", sans-serif;
+        font-weight: 300;
+    }
+    .react-datepicker{
+        border: 1px solid  $primary-200;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    }
+    .react-datepicker__header {
+        text-align: center;
+        background-color: $primary-50;
+        border-bottom: 1px solid  $primary-200;
+        border-top-left-radius: 0.3rem;
+        padding: 20px 0;
+        position: relative;
+        font-family: "Lexend Deca", sans-serif;
+    }
+    .react-datepicker__day--keyboard-selected, .react-datepicker__month-text--keyboard-selected, .react-datepicker__quarter-text--keyboard-selected, .react-datepicker__year-text--keyboard-selected {
+        border-radius: 0.3rem;
+        background-color: $primary-50;
+        color:  $primary-500;
+    }
+    h2.react-datepicker__current-month {
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+        color:  $primary-500;
+    }
+    .react-datepicker__month-container {
+        float: left;
+        width: 360px;
+    }
+    .react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range, .react-datepicker__month-text--selected, .react-datepicker__month-text--in-selecting-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--selected, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__quarter-text--in-range, .react-datepicker__year-text--selected, .react-datepicker__year-text--in-selecting-range, .react-datepicker__year-text--in-range {
+        border-radius: 0.3rem;
+        background-color: $primary-500;
+        color: #fff;
+    }
+    .react-datepicker__day-name{
+        color: $primary-700;
+    }
+}

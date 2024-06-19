@@ -105,7 +105,7 @@
         padding: 1rem;
         background-color: #ffffff;
         z-index: -1;
-        border: 1px solid #A1A6DD;
+        border: 1px solid $primary-200;
         border-radius: 3rem;
         text-align: center;
     }
@@ -124,4 +124,18 @@
         }
     }
     
+}
+
+.mh-message{
+    width: 100%;
+    padding: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    &.mh-error{
+        background: $error-bg;
+        border-radius: 8px;
+        border: 1px solid $error-border;
+        color:$error-text;
+    }
 }
